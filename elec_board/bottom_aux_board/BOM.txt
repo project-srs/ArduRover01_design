@@ -1,0 +1,16 @@
+Partlist
+
+Exported from untitled.sch at 2022/09/05 7:58
+
+EAGLE Version 9.6.2 Copyright (c) 1988-2020 Autodesk, Inc.
+
+Assembly variant: 
+
+Part     Value          Device      Package   Library                 Sheet
+
+CN1      XH3TOP         XH3TOP      XH3TOP    lib05-6connecter-jst-xh 1
+CN2      XH3TOP         XH3TOP      XH3TOP    lib05-6connecter-jst-xh 1
+CN3      XH2TOP         XH2TOP      XH2TOP    lib05-6connecter-jst-xh 1
+CN4      XH2TOP         XH2TOP      XH2TOP    lib05-6connecter-jst-xh 1
+CN5      XH2TOP         XH2TOP      XH2TOP    lib05-6connecter-jst-xh 1
+D1                      DIODE100MIL DI-100MIL lib02dt                 1

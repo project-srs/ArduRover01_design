@@ -1,0 +1,13 @@
+Partlist
+
+Exported from untitled.brd at 2022/09/05 7:54
+
+EAGLE Version 9.6.2 Copyright (c) 1988-2020 Autodesk, Inc.
+
+Assembly variant: 
+
+Part     Value          Package  Library                 Position (mil)        Orientation
+
+CN1      XH6TOP         XH6TOP   lib05-6connecter-jst-xh (800 400)             R180
+CN2      XH2TOP         XH2TOP   lib05-6connecter-jst-xh (1200 1100)           R0
+CN3      XH5TOP         XH5TOP   lib05-6connecter-jst-xh (700 1100)            R0

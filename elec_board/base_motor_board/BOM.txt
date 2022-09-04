@@ -1,0 +1,15 @@
+Partlist
+
+Exported from untitled.brd at 2022/09/05 7:50
+
+EAGLE Version 9.6.2 Copyright (c) 1988-2020 Autodesk, Inc.
+
+Assembly variant: 
+
+Part     Value          Package  Library                    Position (inch)       Orientation
+
+CN1      XH4SIDE        XH4SIDE  lib05-6connecter-jst-xh    (1.3 1.4)             R180
+CN2      XH5SIDE        XH5SIDE  lib05-6connecter-jst-xh    (0.7 1.4)             R180
+CN3      XH8SIDE        XH8SIDE  lib05-6connecter-jst-xh    (2 1.4)               R180
+JP1                     1X06/90  lib05-2connecter-pinheader (0.25 0.75)           R90
+JP2                     1X06/90  lib05-2connecter-pinheader (2.55 0.75)           R270
