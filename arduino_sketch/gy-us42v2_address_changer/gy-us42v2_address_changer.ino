@@ -80,7 +80,6 @@ void loop()
   }
 }
 
-
 /////////////////////////////////////////
 // Function: Search address
 /////////////////////////////////////////
@@ -107,32 +106,6 @@ int search_adress(void) {
   return -1;
 }
 
-/////////////////////////////////////////
-// Function: get input mode
-// 1~127: taraget address(1~127)
-// other: other(0)
-// no input: no input(-1)
-/////////////////////////////////////////
-int get_input_mode(void) {
-  int input_length = Serial.available();
-  if (0 < input_length) {
-    int value = 0;
-    for (size_t i = 0; i < input_length; i++) {
-      char inkey = Serial.read();
-      if ('0' <= inkey && inkey <= '9') {
-        value += (inkey - '0') * pow(10, (input_length - i));
-      }
-      else {
-        return 0;
-      }
-    }
-    Serial.print( "input is ");
-    Serial.print( value );
-  }
-  return -1;
-}
-
-
 ///////////////////////////////////////////////////
 // Function: Start a range reading on the sensor //
 ///////////////////////////////////////////////////
@@ -149,8 +122,6 @@ boolean start_sensor(byte bit8address) {
   i2c_stop();
   return errorlevel;
 }
-
-
 
 ///////////////////////////////////////////////////////////////////////
 // Function: Read the range from the sensor at the specified address //
